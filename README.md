@@ -31,12 +31,9 @@ Siga estes passos simples para ter seu Neovim dockerizado funcionando em minutos
 Comece clonando este repositório para sua máquina local. Ele contém o `Dockerfile` e as configurações essenciais.
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git nvim-docker-env
+[git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/biojpferreira/neovim/tree/d70a437cf2afb3b456de4fe5152428f00756c1f0) nvim-docker-env
 cd nvim-docker-env
 ```
-
-**(Substitua `https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git` pela URL real do seu repositório.)**
-
 ### 2\. Construa a Imagem Docker
 
 Dentro da pasta `nvim-docker-env` que você acabou de clonar, execute o comando para construir a imagem Docker. Este processo pode levar alguns minutos, pois fará o download das dependências e instalará o Neovim com todos os plugins do LazyVim.
