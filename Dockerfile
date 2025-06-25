@@ -63,7 +63,7 @@ RUN git clone --depth 1 https://github.com/LazyVim/starter ${XDG_CONFIG_HOME}/nv
 RUN rm -rf ${XDG_CONFIG_HOME}/nvim/.git
 
 # --- Adicione esta linha para copiar suas configurações customizadas do nvim-tree.lua ---
-COPY ./lazyvim-user-config/lua/plugins/nvim-tree.lua ${XDG_CONFIG_HOME}/nvim/lua/plugins/nvim-tree.lua
+COPY ./lazyvim-user-config/lua ${XDG_CONFIG_HOME}/nvim/lua
  
 
 

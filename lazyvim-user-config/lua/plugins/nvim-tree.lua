@@ -40,7 +40,7 @@ return {
     },
 keys = {
     -- Mapeamento de teclas (você pode sobrescrever o padrão do LazyVim aqui)
-    { "\\","<cmd>NvimTreeToggle<cr>", desc = "Toggle NvimTree" },
+    { "<leader>e","<cmd>NvimTreeToggle<cr>", desc = "Toggle NvimTree" },
     -- Adicione outros mapeamentos se quiser, por exemplo, para focar na árvore
     -- { "<leader>nf", "<cmd>NvimTreeFocus<cr>", desc = "Focus NvimTree" },
     },
